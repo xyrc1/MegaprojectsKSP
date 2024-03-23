@@ -1,0 +1,11 @@
+TWEAKSCALEEXPONENTS:NEEDS[Tweakscale]
+{
+    name = ProcessController
+    capacity = 3
+}
+TWEAKSCALEEXPONENTS:NEEDS[Tweakscale]
+{
+    name = Harvester
+    rate = 3
+    ec_rate = 3
+}

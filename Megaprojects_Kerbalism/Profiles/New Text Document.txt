@@ -1,0 +1,42 @@
+Supply:NEEDS[!RationalResourcesELCRP]
+	{
+		resource = Metal
+		low_message = Metal is almost depleted on $VESSEL@<i>Processes requiring Metal will soon be unavailable</i>
+		empty_message = There is no more Metal on $VESSEL@<i>Processes requiring Metal are no longer available</i>
+		refill_message = $VESSEL Metal storage refilled@<i>Processes requiring Metal are now available</i>
+	}
+	Supply:NEEDS[RationalResourcesELCRP]
+	{
+		resource = Metals
+		low_message = Metals is almost depleted on $VESSEL@<i>Processes requiring Metals will soon be unavailable</i>
+		empty_message = There is no more Metals on $VESSEL@<i>Processes requiring Metals are no longer available</i>
+		refill_message = $VESSEL Metals storage refilled@<i>Processes requiring Metals are now available</i>
+	}
+	Supply
+	{
+		resource = RocketParts
+		low_message = RocketParts is almost depleted on $VESSEL@<i>Projects requiring RocketParts will soon be unavailable</i>
+		empty_message = There is no more RocketParts on $VESSEL@<i>Projects requiring RocketParts are no longer available</i>
+		refill_message = $VESSEL RocketParts storage refilled@<i>Projects requiring RocketParts are now available</i>
+	}
+	Supply
+	{
+		resource = ScrapMetal
+		low_message = ScrapMetal is almost depleted on $VESSEL@<i>ScrapMetal smelting  will soon be unavailable</i>
+		empty_message = There is no more ScrapMetal on $VESSEL@<i>ScrapMetal smelting is no longer available</i>
+		refill_message = $VESSEL ScrapMetal storage refilled@<i>ScrapMetal smelting is now available</i>
+	}
+	Supply:NEEDS[!RationalResourcesELCRP]
+	{
+		resource = MetalOre
+		low_message = MetalOre is almost depleted on $VESSEL@<i>MetalOre smelting will soon be unavailable</i>
+		empty_message = There is no more MetalOre on $VESSEL@<i>MetalOre smelting is no longer available</i>
+		refill_message = $VESSEL MetalOre storage refilled@<i>MetalOre smelting is now available</i>
+	}
+	Supply:NEEDS[RationalResourcesELCRP]
+	{
+		resource = MetallicOre
+		low_message = MetallicOre is almost depleted on $VESSEL@<i>MetallicOre smelting will soon be unavailable</i>
+		empty_message = There is no more MetallicOre on $VESSEL@<i>MetallicOre smelting is no longer available</i>
+		refill_message = $VESSEL MetallicOre storage refilled@<i>MetallicOre smelting is now available</i>
+	}
