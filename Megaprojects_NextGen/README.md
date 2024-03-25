@@ -10,14 +10,36 @@ Megaprojects NextGen seeks to add more depth to the EL gameplay experience by ad
 THIS MOD (Megaprojects_NextGen) REQUIRES (with their dependencies):
 
 Extraplanetary Launchpads - https://forum.kerbalspaceprogram.com/index.php?/topic/54284-*
-Rational Resources EL-CRP - https://forum.kerbalspaceprogram.com/topic/184875-*
+Rational Resources EL-CRP - https://forum.kerbalspaceprogram.com/topic/184875-* as well as RR itself
+MKS - https://forum.kerbalspaceprogram.com/topic/154587-*
+B9 Part Switch
+*no other ways of producing resources in-game exist
 
 THIS MOD (Megaprojects_NextGen) SUPPORTS:
 
-TBA
+Sterling Systems
+JavelinEngine (from JNSQ)
+KARE
+CryoEngines/Tanks
+HeatControl
+KerbalAtomics
+NearFutureTechnologies
+FarFutureTechnologies
+SpaceDust
+RecycledParts AtomicAge
+RestockPlus
+SSPXr
+Various USI mods other than MKS
+
+KSS2
+GPP
+Kcalbeloh
+WhirligigWorld
+
+KSPIE soon
 
 License: GNU General Public License v3.0
-MCFStellarator licensed under: KSP Interstellar License
+MCFStellarator licensed under KSP Interstellar License
 
 THIS MOD USES THE MODEL, TEXTURE, AND PART OF THE CONFIG OF THE MCFStellarator PART IN KSP Interstellar
 THE FULL KSP Interstellar LICENSE CAN BE FOUND IN Megaprojects_NextGen/Parts/MCFStellarator/KSPI_License.txt
