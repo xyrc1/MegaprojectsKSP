@@ -1,0 +1,79 @@
+// SSPX
+@PART[sspx-cargo-container*,sspx-logistics*]:NEEDS[StationPartsExpansionRedux]:AFTER[StationPartsExpansionRedux]
+{
+    @MODULE[ModuleB9PartSwitch]
+    {
+        SUBTYPE:NEEDS[MKS] // Re add when MKS is present
+		{
+			name = RocketParts
+			tankType = SSPXRocketParts
+			title = #LOC_SSPX_Switcher_Cargo_RocketParts
+			transform = RocketPartsDecal
+			primaryColor = PumpkinOrange
+			secondaryColor = PumpkinOrange
+		}
+        SUBTYPE
+		{
+			name = AdvRocketParts
+			tankType = MPNGARP
+			title = Adv Rocket Parts
+			transform = RocketPartsDecal
+			primaryColor = Iris
+			secondaryColor = Iris
+		}
+        SUBTYPE
+		{
+			name = NuclearParts
+			tankType = MPNGNGP
+			title = Nuclear Grade Parts
+			transform = RocketPartsDecal
+			primaryColor = LightGrassGreen
+			secondaryColor = LightGrassGreen
+		}
+        SUBTYPE
+		{
+			name = ExRocketParts
+			tankType = MPNGERP
+			title = Extreme Rocket Parts
+			transform = RocketPartsDecal
+			primaryColor = MutedBlue
+			secondaryColor = MutedBlue
+		}
+        SUBTYPE
+		{
+			name = FusionParts
+			tankType = MPNGFuP
+			title = Fusion Parts
+			transform = RocketPartsDecal
+			primaryColor = PaleAqua
+			secondaryColor = PaleAqua
+		}
+        SUBTYPE
+		{
+			name = AdvFusionParts
+			tankType = MPNGAdvFuP
+			title = Adv Fusion Parts
+			transform = RocketPartsDecal
+			primaryColor = PinkyPurple
+			secondaryColor = PinkyRed
+		}
+        SUBTYPE
+		{
+			name = AMContainer
+			tankType = MPNGACU
+			title = Antimatter Containers
+			transform = RocketPartsDecal
+			primaryColor = OrangishRed
+			secondaryColor = OceanBlue
+		}
+        SUBTYPE
+		{
+			name = WarpCores
+			tankType = MPNGWarpCores
+			title = Antimatter Containers
+			transform = RocketPartsDecal
+			primaryColor = VeryDarkPurple
+			secondaryColor = VeryDarkPurple
+		}
+    }
+}
