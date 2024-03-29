@@ -35,6 +35,12 @@ Tukanarium must be refined from Tukanarite in a research fusion reactor (likely 
 Pure Tukanarium exhibits the properties to bend space and time and generally defy reality and gravity in a near-handwavium sense.
 Combining ACU, Tk, Ks, and large amounts of Prototypes, one can obtain the ultimate material for FTL and black-hole technology. WarpCores are also capable of stabilizing Graviolium.
 
+TO BE ADDED:
+- Add resources to MKS containers (this takes a decent amount of work since the resources are stored in unorthodox arrays and potential texturework needed)
+- Remove MKS dependence (while still mostly relying on it)
+- Add RP and ARP recipes to any EL part that would normally have an EL_Converter to make RP
+- KPBS and KSPIE compat
+
 THIS MOD (Megaprojects_NextGen) REQUIRES (with their dependencies):
 
 Extraplanetary Launchpads - https://forum.kerbalspaceprogram.com/index.php?/topic/54284-*
@@ -63,8 +69,6 @@ KSS2
 GPP
 Kcalbeloh
 WhirligigWorld
-
-*KSPIE Compat soon
 
 ---
 
